@@ -1,3 +1,4 @@
 # ProjetoIntegrador
 
-## Os requisitos funcionais estão disponíveis na pasta "Requisitos funcionais".
+### Requisitos funcionais estão na pasta "Requisitos Funcionais".
+### Modelo Conceitual está disponível dentro da pasta "database".
