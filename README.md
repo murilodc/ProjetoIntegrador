@@ -6,4 +6,4 @@
 
 * Modelo lógico relacional adicionado na pasta "database"
 
-*Scripts de criação e população do banco de dados estão na pasta "database"
+* Scripts de criação e população do banco de dados estão na pasta "database"
