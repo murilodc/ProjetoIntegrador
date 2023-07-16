@@ -1,0 +1,300 @@
+INSERT INTO Customer (CustomerCpf, CustomerName, CustomerSex, CustomerBirthDate, CustomerCellPhone, CustomerStateAddress, CustomerCityAddress, CustomerBairroAddress, CustomerFamilyContact, CustomerStatus)
+VALUES ('60733396070', 'Gabriel Costa', 'M', '1990-01-01', '123456789', 'Santa Catarina', 'Chapecó', 'Centro', '987654321', 0);
+
+INSERT INTO Customer (CustomerCpf, CustomerName, CustomerSex, CustomerBirthDate, CustomerCellPhone, CustomerStateAddress, CustomerCityAddress, CustomerBairroAddress, CustomerFamilyContact, CustomerStatus)
+VALUES ('57985327045', 'Leonardo Silva', 'M', '2000-04-10', '9957483211', 'Santa Catarina', 'Concórdia', 'Centro', '4999885533', 0);
+
+INSERT INTO Customer (CustomerCpf, CustomerName, CustomerSex, CustomerBirthDate, CustomerCellPhone, CustomerStateAddress, CustomerCityAddress, CustomerBairroAddress, CustomerFamilyContact, CustomerStatus)
+VALUES ('47249043056', 'Larissa Pissaia', 'F', '2003-01-01', '99475632', 'Santa Catarina', 'Jaborá', 'Centro', '4999885566', 1);
+
+INSERT INTO Customer (CustomerCpf, CustomerName, CustomerSex, CustomerBirthDate, CustomerCellPhone, CustomerStateAddress, CustomerCityAddress, CustomerBairroAddress, CustomerFamilyContact, CustomerStatus)
+VALUES ('58394299024', 'João da Silva', 'M', '1990-01-01', '123456789', 'Santa Catarina', 'Joaçaba', 'Imigrantes', '4999675920', 1);
+
+INSERT INTO Customer (CustomerCpf, CustomerName, CustomerSex, CustomerBirthDate, CustomerCellPhone, CustomerStateAddress, CustomerCityAddress, CustomerBairroAddress, CustomerFamilyContact, CustomerStatus)
+VALUES ('37907007038', 'Maria Oliveira', 'F', '1992-05-15', '987654321', 'Paraná', 'Curitiba', 'BairroCuritiba', '4999885566', 1);
+
+INSERT INTO Customer (CustomerCpf, CustomerName, CustomerSex, CustomerBirthDate, CustomerCellPhone, CustomerStateAddress, CustomerCityAddress, CustomerBairroAddress, CustomerFamilyContact, CustomerStatus)
+VALUES ('18378550052', 'José Santos', 'M', '1985-11-30', '789456123', 'Santa Catarina', 'Cidade1', 'Bairro1', '4845678901', 0);
+
+INSERT INTO Customer (CustomerCpf, CustomerName, CustomerSex, CustomerBirthDate, CustomerCellPhone, CustomerStateAddress, CustomerCityAddress, CustomerBairroAddress, CustomerFamilyContact, CustomerStatus)
+VALUES ('32193967040', 'Ana Costa', 'F', '1998-07-20', '456123789', 'Paraná', 'Cidade2', 'Bairro2', '4165432109', 0);
+
+INSERT INTO Customer (CustomerCpf, CustomerName, CustomerSex, CustomerBirthDate, CustomerCellPhone, CustomerStateAddress, CustomerCityAddress, CustomerBairroAddress, CustomerFamilyContact, CustomerStatus)
+VALUES ('33627018095', 'Rafaela Lima', 'F', '1995-06-25', '987654321', 'Santa Catarina', 'Cidade3', 'Bairro3', '4832109876', 1);
+
+INSERT INTO Customer (CustomerCpf, CustomerName, CustomerSex, CustomerBirthDate, CustomerCellPhone, CustomerStateAddress, CustomerCityAddress, CustomerBairroAddress, CustomerFamilyContact, CustomerStatus)
+VALUES ('37766626039', 'Gustavo Souza', 'M', '1991-09-15', '123456789', 'Paraná', 'Cidade4', 'Bairro4', '4198765432', 1);
+
+INSERT INTO Customer (CustomerCpf, CustomerName, CustomerSex, CustomerBirthDate, CustomerCellPhone, CustomerStateAddress, CustomerCityAddress, CustomerBairroAddress, CustomerFamilyContact, CustomerStatus)
+VALUES ('12345678910', 'Quilian Moretti', 'M', '2003-05-20', '4798765432', 'Santa Catarina', 'Chapecó', 'Centro', '5555555555', 0);
+
+INSERT INTO Employee (EmployeeCpf, EmployeeName, EmployeeSex, EmployeeBirthDate, EmployeeCellphone, EmployeeStateAddress, EmployeeCityAddress, EmployeeBairroAddress, EmployeeSalary)
+VALUES ('11111111111', 'Fernando Santos', 'M', '1990-05-10', '987654321', 'Santa Catarina', 'Cidade1', 'Bairro1', 5000.00);
+
+INSERT INTO Employee (EmployeeCpf, EmployeeName, EmployeeSex, EmployeeBirthDate, EmployeeCellphone, EmployeeStateAddress, EmployeeCityAddress, EmployeeBairroAddress, EmployeeSalary)
+VALUES ('22222222222', 'Amanda Silva', 'F', '1993-08-20', '123456789', 'Paraná', 'Cidade2', 'Bairro2', 4500.00);
+
+INSERT INTO Employee (EmployeeCpf, EmployeeName, EmployeeSex, EmployeeBirthDate, EmployeeCellphone, EmployeeStateAddress, EmployeeCityAddress, EmployeeBairroAddress, EmployeeSalary)
+VALUES ('33333333333', 'Lucas Almeida', 'M', '1991-04-15', '987654321', 'Santa Catarina', 'Cidade3', 'Bairro3', 4800.00);
+
+INSERT INTO Employee (EmployeeCpf, EmployeeName, EmployeeSex, EmployeeBirthDate, EmployeeCellphone, EmployeeStateAddress, EmployeeCityAddress, EmployeeBairroAddress, EmployeeSalary)
+VALUES ('44444444444', 'Mariana Oliveira', 'F', '1988-07-25', '123456789', 'Paraná', 'Cidade4', 'Bairro4', 5200.00);
+
+INSERT INTO Employee (EmployeeCpf, EmployeeName, EmployeeSex, EmployeeBirthDate, EmployeeCellphone, EmployeeStateAddress, EmployeeCityAddress, EmployeeBairroAddress, EmployeeSalary)
+VALUES ('55555555555', 'Ricardo Pereira', 'M', '1995-02-18', '987654321', 'Santa Catarina', 'Cidade5', 'Bairro5', 4900.00);
+
+INSERT INTO Employee (EmployeeCpf, EmployeeName, EmployeeSex, EmployeeBirthDate, EmployeeCellphone, EmployeeStateAddress, EmployeeCityAddress, EmployeeBairroAddress, EmployeeSalary)
+VALUES ('66666666666', 'Camila Costa', 'F', '1992-11-08', '123456789', 'Paraná', 'Cidade6', 'Bairro6', 5100.00);
+
+INSERT INTO Employee (EmployeeCpf, EmployeeName, EmployeeSex, EmployeeBirthDate, EmployeeCellphone, EmployeeStateAddress, EmployeeCityAddress, EmployeeBairroAddress, EmployeeSalary)
+VALUES ('77777777777', 'Gustavo Santos', 'M', '1989-06-03', '987654321', 'Santa Catarina', 'Cidade7', 'Bairro7', 4700.00);
+
+INSERT INTO Employee (EmployeeCpf, EmployeeName, EmployeeSex, EmployeeBirthDate, EmployeeCellphone, EmployeeStateAddress, EmployeeCityAddress, EmployeeBairroAddress, EmployeeSalary)
+VALUES ('88888888888', 'Carolina Lima', 'F', '1994-09-12', '123456789', 'Paraná', 'Cidade8', 'Bairro8', 5300.00);
+
+INSERT INTO Employee (EmployeeCpf, EmployeeName, EmployeeSex, EmployeeBirthDate, EmployeeCellphone, EmployeeStateAddress, EmployeeCityAddress, EmployeeBairroAddress, EmployeeSalary)
+VALUES ('99999999999', 'Fernanda Rodrigues', 'F', '1997-03-27', '987654321', 'Santa Catarina', 'Cidade9', 'Bairro9', 4800.00);
+
+INSERT INTO Employee (EmployeeCpf, EmployeeName, EmployeeSex, EmployeeBirthDate, EmployeeCellphone, EmployeeStateAddress, EmployeeCityAddress, EmployeeBairroAddress, EmployeeSalary)
+VALUES ('00000000000', 'Rafael Santos', 'M', '1993-10-05', '123456789', 'Paraná', 'Cidade10', 'Bairro10', 5200.00);
+
+INSERT INTO Product (ProductCode, ProductPrice, ProductCategory, ProductName, ProductSize, ProductBrand)
+VALUES ('0000000001', 9.99, 'Calçados', 'Tênis', '38', 'Marca1');
+
+INSERT INTO Product (ProductCode, ProductPrice, ProductCategory, ProductName, ProductSize, ProductBrand)
+VALUES ('0000000002', 19.99, 'Roupas', 'Camiseta', 'M', 'Marca2');
+
+INSERT INTO Product (ProductCode, ProductPrice, ProductCategory, ProductName, ProductSize, ProductBrand)
+VALUES ('0000000003', 14.99, 'Calçados', 'Salto alto', '34', 'Marca3');
+
+INSERT INTO Product (ProductCode, ProductPrice, ProductCategory, ProductName, ProductSize, ProductBrand)
+VALUES ('0000000004', 24.99, 'Calçados', 'Chinelo', '40', 'Marca4');
+
+INSERT INTO Product (ProductCode, ProductPrice, ProductCategory, ProductName, ProductSize, ProductBrand)
+VALUES ('0000000005', 12.99, 'Roupas', 'Vestido', 'P', 'Marca5');
+
+INSERT INTO Product (ProductCode, ProductPrice, ProductCategory, ProductName, ProductSize, ProductBrand)
+VALUES ('0000000006', 29.99, 'Roupas', 'Calça', 'G', 'Marca2');
+
+INSERT INTO Product (ProductCode, ProductPrice, ProductCategory, ProductName, ProductSize, ProductBrand)
+VALUES ('0000000007', 17.99, 'Calçados', 'Sapatenis', '36', 'Marca1');
+
+INSERT INTO Product (ProductCode, ProductPrice, ProductCategory, ProductName, ProductSize, ProductBrand)
+VALUES ('0000000008', 21.99, 'Roupas', 'Jaqueta', 'G', 'Marca5');
+
+INSERT INTO Product (ProductCode, ProductPrice, ProductCategory, ProductName, ProductSize, ProductBrand)
+VALUES ('0000000009', 11.99, 'Calçados', 'Rasteirinha', '33', 'Marca3');
+
+INSERT INTO Product (ProductCode, ProductPrice, ProductCategory, ProductName, ProductSize, ProductBrand)
+VALUES ('0000000010', 32.99, 'Calçados', 'Sandália', '35', 'Marca4');
+
+INSERT INTO Brand (BrandCnpj, BrandName, BrandAgentName, BrandAgentCellphone)
+VALUES ('15244304000171', 'Marca1', 'Agente1', '5551111111');
+
+INSERT INTO Brand (BrandCnpj, BrandName, BrandAgentName, BrandAgentCellphone)
+VALUES ('88704555000165', 'Marca2', 'Agente2', '5552222222');
+
+INSERT INTO Brand (BrandCnpj, BrandName, BrandAgentName, BrandAgentCellphone)
+VALUES ('58552439000107', 'Marca3', 'Agente3', '5553333333');
+
+INSERT INTO Brand (BrandCnpj, BrandName, BrandAgentName, BrandAgentCellphone)
+VALUES ('36399707000160', 'Marca4', 'Agente4', '5554444444');
+
+INSERT INTO Brand (BrandCnpj, BrandName, BrandAgentName, BrandAgentCellphone)
+VALUES ('99529945000162', 'Marca5', 'Agente5', '5555555555');
+
+INSERT INTO Brand (BrandCnpj, BrandName, BrandAgentName, BrandAgentCellphone)
+VALUES ('56536519000143', 'Marca6', 'Agente6', '5556666666');
+
+INSERT INTO Brand (BrandCnpj, BrandName, BrandAgentName, BrandAgentCellphone)
+VALUES ('14041003000188', 'Marca7', 'Agente7', '5557777777');
+
+INSERT INTO Brand (BrandCnpj, BrandName, BrandAgentName, BrandAgentCellphone)
+VALUES ('35114972000191', 'Marca8', 'Agente8', '5558888888');
+
+INSERT INTO Brand (BrandCnpj, BrandName, BrandAgentName, BrandAgentCellphone)
+VALUES ('90902968000104', 'Marca9', 'Agente9', '5559999999');
+
+INSERT INTO Brand (BrandCnpj, BrandName, BrandAgentName, BrandAgentCellphone)
+VALUES ('30705278000125', 'Marca10', 'Agente10', '5550000000');
+
+INSERT INTO Admin (AdminCpf, AdminName, AdminPassword)
+VALUES ('60170263053', 'Admin1', 'password1');
+
+INSERT INTO Admin (AdminCpf, AdminName, AdminPassword)
+VALUES ('72423687079', 'Admin2', 'password2');
+
+INSERT INTO Admin (AdminCpf, AdminName, AdminPassword)
+VALUES ('48841236035', 'Admin3', 'password3');
+
+INSERT INTO Admin (AdminCpf, AdminName, AdminPassword)
+VALUES ('83878370083', 'Admin4', 'password4');
+
+INSERT INTO Admin (AdminCpf, AdminName, AdminPassword)
+VALUES ('32783329034', 'Admin5', 'password5');
+
+INSERT INTO Admin (AdminCpf, AdminName, AdminPassword)
+VALUES ('48503597012', 'Admin6', 'password6');
+
+INSERT INTO Admin (AdminCpf, AdminName, AdminPassword)
+VALUES ('81427967083', 'Admin7', 'password7');
+
+INSERT INTO Admin (AdminCpf, AdminName, AdminPassword)
+VALUES ('24420327081', 'Admin8', 'password8');
+
+INSERT INTO Admin (AdminCpf, AdminName, AdminPassword)
+VALUES ('43675494020', 'Admin9', 'password9');
+
+INSERT INTO Admin (AdminCpf, AdminName, AdminPassword)
+VALUES ('99738597072', 'Admin10', 'password10');
+
+INSERT INTO Sale (SaleCode, SaleDate, SalePaymentMethod, SaleCategory, CustomerCpf, EmployeeCpf)
+VALUES (1, '2023-01-01', 'Cartão de Crédito', 'Categoria1', '47249043056', '44444444444');
+
+INSERT INTO Sale (SaleCode, SaleDate, SalePaymentMethod, SaleCategory, CustomerCpf, EmployeeCpf)
+VALUES (2, '2023-02-02', 'Dinheiro', 'Categoria2', '33627018095', '55555555555');
+
+INSERT INTO Sale (SaleCode, SaleDate, SalePaymentMethod, SaleCategory, CustomerCpf, EmployeeCpf)
+VALUES (3, '2023-03-03', 'Cartão de Débito', 'Categoria1', '47249043056', '66666666666');
+
+INSERT INTO Sale (SaleCode, SaleDate, SalePaymentMethod, SaleCategory, CustomerCpf, EmployeeCpf)
+VALUES (4, '2023-04-04', 'Dinheiro', 'Categoria3', '18378550052', '55555555555');
+
+INSERT INTO Sale (SaleCode, SaleDate, SalePaymentMethod, SaleCategory, CustomerCpf, EmployeeCpf)
+VALUES (5, '2023-05-05', 'Cartão de Crédito', 'Categoria2', '18378550052', '44444444444');
+
+INSERT INTO Sale (SaleCode, SaleDate, SalePaymentMethod, SaleCategory, CustomerCpf, EmployeeCpf)
+VALUES (6, '2023-06-06', 'Dinheiro', 'Categoria1', '60733396070', '66666666666');
+
+INSERT INTO Sale (SaleCode, SaleDate, SalePaymentMethod, SaleCategory, CustomerCpf, EmployeeCpf)
+VALUES (7, '2023-07-07', 'Cartão de Débito', 'Categoria3', '18378550052', '88888888888');
+
+INSERT INTO Sale (SaleCode, SaleDate, SalePaymentMethod, SaleCategory, CustomerCpf, EmployeeCpf)
+VALUES (8, '2023-08-08', 'Dinheiro', 'Categoria2', '60733396070', '88888888888');
+
+INSERT INTO Sale (SaleCode, SaleDate, SalePaymentMethod, SaleCategory, CustomerCpf, EmployeeCpf)
+VALUES (9, '2023-09-09', 'Cartão de Crédito', 'Categoria1', '33627018095', '66666666666');
+
+INSERT INTO Sale (SaleCode, SaleDate, SalePaymentMethod, SaleCategory, CustomerCpf, EmployeeCpf)
+VALUES (10, '2023-10-10', 'Dinheiro', 'Categoria3', '47249043056', '55555555555');
+
+INSERT INTO SaleProducts (SaleCode, ProductCode)
+VALUES (1, '0000000001');
+
+INSERT INTO SaleProducts (SaleCode, ProductCode)
+VALUES (1, '0000000002');
+
+INSERT INTO SaleProducts (SaleCode, ProductCode)
+VALUES (2, '0000000003');
+
+INSERT INTO SaleProducts (SaleCode, ProductCode)
+VALUES (3, '0000000004');
+
+INSERT INTO SaleProducts (SaleCode, ProductCode)
+VALUES (3, '0000000005');
+
+INSERT INTO SaleProducts (SaleCode, ProductCode)
+VALUES (4, '0000000006');
+
+INSERT INTO SaleProducts (SaleCode, ProductCode)
+VALUES (5, '0000000007');
+
+INSERT INTO SaleProducts (SaleCode, ProductCode)
+VALUES (6, '0000000008');
+
+INSERT INTO SaleProducts (SaleCode, ProductCode)
+VALUES (7, '0000000009');
+
+INSERT INTO SaleProducts (SaleCode, ProductCode)
+VALUES (8, '0000000010');
+
+INSERT INTO Conditional (ConditionalCode, ConditionalDate, CustomerCpf, EmployeeCpf)
+VALUES (1, '2023-01-01', '33627018095', '11111111111');
+
+INSERT INTO Conditional (ConditionalCode, ConditionalDate, CustomerCpf, EmployeeCpf)
+VALUES (2, '2023-02-02', '33627018095', '11111111111');
+
+INSERT INTO Conditional (ConditionalCode, ConditionalDate, CustomerCpf, EmployeeCpf)
+VALUES (3, '2023-03-03', '32193967040', '33333333333');
+
+INSERT INTO Conditional (ConditionalCode, ConditionalDate, CustomerCpf, EmployeeCpf)
+VALUES (4, '2023-04-04', '58394299024', '33333333333');
+
+INSERT INTO Conditional (ConditionalCode, ConditionalDate, CustomerCpf, EmployeeCpf)
+VALUES (5, '2023-05-05', '58394299024', '99999999999');
+
+INSERT INTO Conditional (ConditionalCode, ConditionalDate, CustomerCpf, EmployeeCpf)
+VALUES (6, '2023-06-06', '37766626039', '33333333333');
+
+INSERT INTO Conditional (ConditionalCode, ConditionalDate, CustomerCpf, EmployeeCpf)
+VALUES (7, '2023-07-07', '37766626039', '22222222222');
+
+INSERT INTO Conditional (ConditionalCode, ConditionalDate, CustomerCpf, EmployeeCpf)
+VALUES (8, '2023-08-08', '37766626039', '99999999999');
+
+INSERT INTO Conditional (ConditionalCode, ConditionalDate, CustomerCpf, EmployeeCpf)
+VALUES (9, '2023-09-09', '37766626039', '11111111111');
+
+INSERT INTO Conditional (ConditionalCode, ConditionalDate, CustomerCpf, EmployeeCpf)
+VALUES (10, '2023-10-10', '33627018095', '22222222222');
+
+INSERT INTO ConditionalProducts (ConditionalCode, ProductCode)
+VALUES (1, '0000000001');
+
+INSERT INTO ConditionalProducts (ConditionalCode, ProductCode)
+VALUES (1, '0000000002');
+
+INSERT INTO ConditionalProducts (ConditionalCode, ProductCode)
+VALUES (2, '0000000003');
+
+INSERT INTO ConditionalProducts (ConditionalCode, ProductCode)
+VALUES (3, '0000000004');
+
+INSERT INTO ConditionalProducts (ConditionalCode, ProductCode)
+VALUES (3, '0000000005');
+
+INSERT INTO ConditionalProducts (ConditionalCode, ProductCode)
+VALUES (4, '0000000006');
+
+INSERT INTO ConditionalProducts (ConditionalCode, ProductCode)
+VALUES (5, '0000000007');
+
+INSERT INTO ConditionalProducts (ConditionalCode, ProductCode)
+VALUES (6, '0000000008');
+
+INSERT INTO ConditionalProducts (ConditionalCode, ProductCode)
+VALUES (7, '0000000009');
+
+INSERT INTO ConditionalProducts (ConditionalCode, ProductCode)
+VALUES (8, '0000000010');
+
+INSERT INTO OrdersBrand (OrderNumber, OrderDate, BrandCnpj, ProductCode)
+VALUES (918273645, '2023-11-11', '36399707000160', '0000000010');
+
+INSERT INTO OrdersBrand (OrderNumber, OrderDate, BrandCnpj, ProductCode)
+VALUES (567432109, '2023-12-12', '99529945000162', '0000000009');
+
+INSERT INTO OrdersBrand (OrderNumber, OrderDate, BrandCnpj, ProductCode)
+VALUES (309876543, '2024-01-01', '36399707000160', '0000000008');
+
+INSERT INTO OrdersBrand (OrderNumber, OrderDate, BrandCnpj, ProductCode)
+VALUES (674210987, '2024-02-02', '88704555000165', '0000000007');
+
+INSERT INTO OrdersBrand (OrderNumber, OrderDate, BrandCnpj, ProductCode)
+VALUES (543216789, '2024-03-03', '88704555000165', '0000000006');
+
+INSERT INTO OrdersBrand (OrderNumber, OrderDate, BrandCnpj, ProductCode)
+VALUES (908172635, '2024-04-04', '14041003000188', '0000000005');
+
+INSERT INTO OrdersBrand (OrderNumber, OrderDate, BrandCnpj, ProductCode)
+VALUES (874596231, '2024-05-05', '56536519000143', '0000000004');
+
+INSERT INTO OrdersBrand (OrderNumber, OrderDate, BrandCnpj, ProductCode)
+VALUES (193847562, '2024-06-06', '14041003000188', '0000000003');
+
+INSERT INTO OrdersBrand (OrderNumber, OrderDate, BrandCnpj, ProductCode)
+VALUES (504937281, '2024-07-07', '99529945000162', '0000000002');
+
+INSERT INTO OrdersBrand (OrderNumber, OrderDate, BrandCnpj, ProductCode)
+VALUES (302847596, '2024-08-08', '56536519000143', '0000000001');
+

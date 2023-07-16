@@ -1,0 +1,104 @@
+create database storedb;
+\c storedb
+
+CREATE TABLE Customer (
+                          CustomerCpf varchar(20) NOT NULL,
+                          CustomerName varchar(300) NOT NULL,
+                          CustomerSex varchar(1) NOT NULL,
+                          CustomerBirthDate date NOT NULL,
+                          CustomerCellPhone varchar(50) NOT NULL,
+                          CustomerStateAddress varchar(50) NOT NULL,
+                          CustomerCityAddress varchar(50) NOT NULL,
+                          CustomerBairroAddress varchar(50) NOT NULL,
+                          CustomerFamilyContact varchar(20) NOT NULL,
+                          CustomerStatus int NOT NULL,
+                          CONSTRAINT pk_customer PRIMARY KEY (CustomerCpf)
+);
+
+CREATE TABLE Product (
+                         ProductCode int NOT NULL,
+                         ProductPrice decimal(12,2) NOT NULL,
+                         ProductCategory varchar(50) NOT NULL,
+                         ProductName varchar(300),
+                         ProductSize varchar(3),
+                         ProductBrand varchar(50),
+                         CONSTRAINT pk_product PRIMARY KEY (ProductCode)
+);
+
+CREATE TABLE Employee (
+                          EmployeeCpf varchar(20) NOT NULL,
+                          EmployeeName varchar(300) NOT NULL,
+                          EmployeeSex varchar(1) NOT NULL,
+                          EmployeeBirthDate date NOT NULL,
+                          EmployeeCellphone varchar(20) NOT NULL,
+                          EmployeeStateAddress varchar(50) NOT NULL,
+                          EmployeeCityAddress varchar(50) NOT NULL,
+                          EmployeeBairroAddress varchar(50) NOT NULL,
+                          EmployeeSalary decimal(12,2) NOT NULL,
+                          CONSTRAINT pk_employee PRIMARY KEY (EmployeeCpf)
+);
+
+CREATE TABLE Conditional (
+                             ConditionalCode int NOT NULL,
+                             ConditionalDate date NOT NULL,
+                             CustomerCpf varchar(20) NOT NULL,
+                             EmployeeCpf varchar(20) NOT NULL,
+                             CONSTRAINT pk_conditional PRIMARY KEY (ConditionalCode),
+                             CONSTRAINT fk_conditional_customer FOREIGN KEY (CustomerCpf) REFERENCES Customer(CustomerCpf),
+                             CONSTRAINT fk_conditional_employee FOREIGN KEY (EmployeeCpf) REFERENCES Employee(EmployeeCpf)
+);
+
+CREATE TABLE ConditionalProducts (
+                                     ConditionalCode int NOT NULL,
+                                     ProductCode int NOT NULL,
+                                     CONSTRAINT pk_conditional_products PRIMARY KEY (ConditionalCode, ProductCode),
+                                     CONSTRAINT fk_conditional_products_conditional FOREIGN KEY (ConditionalCode) REFERENCES Conditional(ConditionalCode),
+                                     CONSTRAINT fk_conditional_products_product FOREIGN KEY (ProductCode) REFERENCES Product(ProductCode)
+);
+
+CREATE TABLE Sale (
+                      SaleCode int NOT NULL,
+                      SaleDate date NOT NULL,
+                      SalePaymentMethod varchar(20) NOT NULL,
+                      SaleCategory varchar(50) NOT NULL,
+                      CustomerCpf varchar(20) NOT NULL,
+                      EmployeeCpf varchar(20) NOT NULL,
+                      CONSTRAINT pk_sale PRIMARY KEY (SaleCode),
+                      CONSTRAINT fk_sale_customer FOREIGN KEY (CustomerCpf) REFERENCES Customer(CustomerCpf),
+                      CONSTRAINT fk_sale_employee FOREIGN KEY (EmployeeCpf) REFERENCES Employee(EmployeeCpf)
+);
+
+CREATE TABLE SaleProducts (
+                              SaleCode int NOT NULL,
+                              ProductCode int NOT NULL,
+                              CONSTRAINT pk_sale_products PRIMARY KEY (SaleCode, ProductCode),
+                              CONSTRAINT fk_sale_products_sale FOREIGN KEY (SaleCode) REFERENCES Sale(SaleCode),
+                              CONSTRAINT fk_sale_products_product FOREIGN KEY (ProductCode) REFERENCES Product(ProductCode)
+);
+
+
+
+CREATE TABLE Brand (
+                       BrandCnpj varchar(20) NOT NULL,
+                       BrandName varchar(300) NOT NULL,
+                       BrandAgentName varchar(300) NOT NULL,
+                       BrandAgentCellphone varchar(20) NOT NULL,
+                       CONSTRAINT pk_brand PRIMARY KEY (BrandCnpj)
+);
+
+CREATE TABLE OrdersBrand (
+                             OrderNumber int NOT NULL,
+                             OrderDate date NOT NULL,
+                             BrandCnpj varchar(20) NOT NULL,
+                             ProductCode int NOT NULL,
+                             CONSTRAINT pk_orders_brand PRIMARY KEY (OrderNumber),
+                             CONSTRAINT fk_orders_brand_brand FOREIGN KEY (BrandCnpj) REFERENCES Brand(BrandCnpj),
+                             CONSTRAINT fk_orders_brand_product FOREIGN KEY (ProductCode) REFERENCES Product(ProductCode)
+);
+
+CREATE TABLE Admin (
+                       AdminCpf varchar(20) NOT NULL,
+                       AdminName varchar(300) NOT NULL,
+                       AdminPassword varchar(128) NOT NULL,
+                       CONSTRAINT pk_admin PRIMARY KEY (AdminCpf)
+);
